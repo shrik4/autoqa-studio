@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+dist-electron/
+release/
+
+# Temporary and test files
+temp/
+*.log
+out.txt
+err.txt
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.*.local
+*.sqlite
+autoqa-settings.json
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
